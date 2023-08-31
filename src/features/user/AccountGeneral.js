@@ -62,7 +62,6 @@ function AccountGeneral() {
   );
 
   const onSubmit = (data) => {
-    console.log(data)
     dispatch(updateUserProfile({ userId: user._id, ...data }));
   };
 

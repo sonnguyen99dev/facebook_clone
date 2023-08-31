@@ -22,3 +22,7 @@ export const useFetchRecipientUser = (chat, user) => {
 
     return {recipientUser}
 };
+
+export const unreadNotificationsfnc = (notifications) => {
+    return notifications.filter((n) => n.isRead === false);
+  };

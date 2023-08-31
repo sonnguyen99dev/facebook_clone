@@ -46,8 +46,8 @@ function ChatBox() {
         alignSelf: "stretch",
       }}
     >
-      <div className="chat_header">
-        <strong>giang</strong>
+       <div className="chat_header">
+        <strong>{recipientUser?.name}</strong>
       </div>
       <Stack
         gap={3}
