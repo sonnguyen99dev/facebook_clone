@@ -19,4 +19,4 @@ The upload preset of your cloudinary should be **unsigned**.
 
 - Run `npm install`
 
-The demo app is running on: https://codercomm-dot-cs-platform-306304.et.r.appspot.com
+The demo app is running on: 
